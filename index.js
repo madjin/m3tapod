@@ -30,7 +30,7 @@ export default e => {
     );
 
     const placeHolders = [];
-    const doors = { speed: 0.05, left: null, right: null, state: 'closed', offset: 0, offsetMax: 5 };
+    const doors = { speed: 0.05, left: null, right: null, state: 'closed', offset: 0, offsetMax: 2 };
     const raycaster = new THREE.Raycaster();
     const tmpVec3a = new THREE.Vector3();
 
@@ -194,7 +194,7 @@ export default e => {
 
     });
 
-    loadModel({ filePath: baseUrl, fileName: 'assets/space-pod.glb', pos: { x: 0, y: 0, z: 0 } } ).then( ( podMesh ) => {
+    loadModel({ filePath: baseUrl, fileName: 'assets/space-pod2.glb', pos: { x: 0, y: 0, z: 0 } } ).then( ( podMesh ) => {
 
         podMesh.traverse( ( item ) => {
 
