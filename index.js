@@ -194,7 +194,7 @@ export default e => {
 
     });
 
-    loadModel({ filePath: baseUrl, fileName: 'assets/space_pod.glb', pos: { x: 0, y: 0, z: 0 } } ).then( ( podMesh ) => {
+    loadModel({ filePath: baseUrl, fileName: 'assets/space_pod2.glb', pos: { x: 0, y: 0, z: 0 } } ).then( ( podMesh ) => {
 
         podMesh.traverse( ( item ) => {
 
