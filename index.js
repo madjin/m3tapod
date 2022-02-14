@@ -10,7 +10,7 @@ const baseUrl = import.meta.url.replace(/(\/)[^\/\/]*$/, '$1');
 const NFTWallets = [
     {
         chainName:  'eth',
-        owner:      '0x08e242bb06d85073e69222af8273af419d19e4f6'
+        owner:      '0x33debb5ee65549ffa71116957da6db17a9d8fe57'
     }
 ];
 
