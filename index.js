@@ -130,7 +130,7 @@ export default e => {
     function updateDoors () {
 
         if ( ! doors.left || ! doors.right ) return;
-        let distance = tmpVec3a.set( ( doors.left.position.x + doors.right.position.x ) / 2, 0, ( doors.left.position.z + doors.right.position.z ) / 2 ).sub( localPlayer.position );
+        let distance = tmpVec3a.set( ( doors.left.position.x + doors.right.position.x ) / 1, 0, ( doors.left.position.z + doors.right.position.z ) / 2 ).sub( localPlayer.position );
         distance.y = 0;
         distance = distance.length();
 
@@ -194,7 +194,7 @@ export default e => {
 
     });
 
-    loadModel({ filePath: baseUrl, fileName: 'assets/space-pod2.glb', pos: { x: 0, y: 0, z: 0 } } ).then( ( podMesh ) => {
+    loadModel({ filePath: baseUrl, fileName: 'assets/space-pod2.glb', pos: { x: 5, y: 0, z: -3 } } ).then( ( podMesh ) => {
 
         podMesh.traverse( ( item ) => {
 
