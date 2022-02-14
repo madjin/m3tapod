@@ -8,7 +8,7 @@
         },
         {
             "key": "animation",
-            "value": false
+            "value": true
         }
     ]
 }
